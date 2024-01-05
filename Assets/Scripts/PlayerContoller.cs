@@ -20,6 +20,15 @@ public class PlayerContoller : MonoBehaviour
     // 当前输入
     private Vector2 _currentInput;
 
+    // 定义最大生命值
+    public int MAX_HEALTH = 5;
+
+    // 当前角色生命值
+    private int _current_health;
+
+    // 暴露_current_health的只读属性
+    public int health => _current_health;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +37,9 @@ public class PlayerContoller : MonoBehaviour
 
         // 获取动画控制器组件
         _animator = GetComponent<Animator>();
+
+        // 复制当前生命值
+        _current_health = 1;
     }
 
     // Update is called once per frame
@@ -57,5 +69,12 @@ public class PlayerContoller : MonoBehaviour
         position += _currentInput * speed * Time.deltaTime;
 
         _rigidbody2D.MovePosition(position);
+    }
+
+    public void ChangeHealth(int amount)
+    {
+        _current_health = Mathf.Clamp(_current_health + amount, 0, MAX_HEALTH);
+        string result = $"Player health changing:{amount}, Current health:{_current_health}";
+        print(result);
     }
 }
