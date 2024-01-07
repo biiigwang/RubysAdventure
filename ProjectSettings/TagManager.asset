@@ -44,11 +44,14 @@ TagManager:
   - name: Background
     uniqueID: 2766579207
     locked: 0
-  - name: Player
-    uniqueID: 3891075205
+  - name: Trap
+    uniqueID: 481823385
     locked: 0
   - name: Item
     uniqueID: 2278608089
+    locked: 0
+  - name: Player
+    uniqueID: 3891075205
     locked: 0
   - name: Environment
     uniqueID: 3162177977
