@@ -700,6 +700,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 7274418295399946242, guid: fabc6663cd332f94d9c3b6a1e917070b,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7274418295399946242, guid: fabc6663cd332f94d9c3b6a1e917070b,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1479852701
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1202,6 +1212,16 @@ PrefabInstance:
         type: 3}
       propertyPath: movingDirection
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7274418295399946242, guid: fabc6663cd332f94d9c3b6a1e917070b,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7274418295399946242, guid: fabc6663cd332f94d9c3b6a1e917070b,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1479852701
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
