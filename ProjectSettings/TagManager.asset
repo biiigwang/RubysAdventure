@@ -44,6 +44,9 @@ TagManager:
   - name: Background
     uniqueID: 2766579207
     locked: 0
+  - name: Shadow
+    uniqueID: 2815114595
+    locked: 0
   - name: Trap
     uniqueID: 481823385
     locked: 0
@@ -55,4 +58,7 @@ TagManager:
     locked: 0
   - name: Environment
     uniqueID: 3162177977
+    locked: 0
+  - name: Enemy
+    uniqueID: 1446407601
     locked: 0
